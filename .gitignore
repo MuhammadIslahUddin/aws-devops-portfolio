@@ -1,0 +1,23 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+
+# Secrets
+*.tfvars
+!terraform.tfvars.example
+
+# Node
+node_modules/
+npm-debug.log*
+dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# AWS
+.aws/
